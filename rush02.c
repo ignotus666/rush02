@@ -16,9 +16,9 @@ void	ft_cabecera(int x)
 {
 	int	i;
 
-	i = 0;
 	if (x >= 1)
 		ft_putchar('A');
+	i = 0;
 	while (i < x - 2)
 	{
 		ft_putchar('B');
@@ -56,11 +56,11 @@ void	ft_ultima(int x, int y)
 {
 	int	i;
 
-	i = 0;
 	if (y < 2)
 		return ;
 	if (x >= 1)
 		ft_putchar('C');
+	i = 0;
 	while (i < x - 2)
 	{
 		ft_putchar('B');
