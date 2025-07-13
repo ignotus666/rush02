@@ -37,9 +37,9 @@ void	ft_cuerpo(int x, int y)
 	j = 0;
 	while (j < y - 2)
 	{
-		i = 0;
 		if (x >= 1)
 			ft_putchar('B');
+		i = 0;
 		while (i < x - 2)
 		{
 			ft_putchar(' ');
